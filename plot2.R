@@ -1,4 +1,4 @@
-## plot1.R
+## plot2.R
 ## Author: Jack Gidding
 ## 
 
@@ -15,7 +15,7 @@
 
 ## Load and prepare the UCI data once, since it is a time expensive operation.
 ## If the UCI data is already in memory, it does not need to be reloaded for
-## each chart.
+## each chart. Code separated to another file to avoid repeating in each chart.
 
 if (!exists("uci")) {
   source("loadUCI.R")

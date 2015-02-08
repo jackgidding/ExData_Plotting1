@@ -1,4 +1,4 @@
-## plot1.R
+## plot4.R
 ## Author: Jack Gidding
 ## 
 
